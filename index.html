@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilemas Digitais & Soluções</title>
+    <style>
+        body {
+            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #183C63;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 30px 20px;
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+            border-radius: 0 0 10px 10px;
+        }
+
+        main {
+            background-color: #d4adcf;
+            color: #183C63;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            padding: 30px 0;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        article div {
+            flex: 1;
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .imagem {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-left: 20px;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+            color: #555;
+        }
+
+        button {
+            background-color: #183C63;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 5px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #245285;
+        }
+
+        footer {
+            background-color: #183C63;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dilemas Digitais & Soluções</h1>
+        <p>Refletindo sobre os impactos da tecnologia e como construir um futuro digital mais ético e seguro.</p>
+        <button>❤️ <span>0</span></button>
+        <button>👍 <span>0</span></button>
+    </header>
+
+    <main>
+        <!-- Dilema 1 -->
+        <article>
+            <div>
+                <h2>1. Vício em Telas e Redes Sociais</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p><strong>O Dilema:</strong> O design das plataformas é feito para reter a atenção por horas, gerando ansiedade e perda de produtividade.</p>
+                <p><strong>A Solução:</strong> Definir limites diários de uso no sistema operacional, desativar notificações não essenciais e adotar a prática do "detox digital" aos finais de semana.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/150" alt="Ilustração sobre vício em telas" class="imagem">
+            </div>
+        </article>
+
+        <!-- Dilema 2 -->
+        <article>
+            <div>
+                <h2>2. Privacidade de Dados vs. Conveniência</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p><strong>O Dilema:</strong> Aplicativos coletam dados pessoais excessivos em troca de serviços gratuitos, expondo a vida dos usuários.</p>
+                <p><strong>A Solução:</strong> Utilizar navegadores focados em privacidade, gerenciadores de senhas, autenticação em duas etapas e revisar periodicamente as permissões dos apps.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/150" alt="Ilustração sobre segurança de dados" class="imagem">
+            </div>
+        </article>
+
+        <!-- Dilema 3 -->
+        <article>
+            <div>
+                <h2>3. Desinformação e Fake News</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p><strong>O Dilema:</strong> A velocidade de propagação de notícias falsas supera a checagem dos fatos, afetando decisões políticas e de saúde pública.</p>
+                <p><strong>A Solução:</strong> Desenvolver letramento midiático nas escolas, checar fontes em agências independentes antes de compartilhar e questionar títulos sensacionalistas.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/150" alt="Ilustração sobre checagem de fatos" class="imagem">
+            </div>
+        </article>
+
+        <!-- Dilema 4 -->
+        <article>
+            <div>
+                <h2>4. Impacto da IA no Mercado de Trabalho</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p><strong>O Dilema:</strong> A automação acelerada por inteligência artificial ameaça postos de trabalho tradicionais em diversos setores.</p>
+                <p><strong>A Solução:</strong> Focar na requalificação profissional (reskilling), priorizando habilidades humanas essenciais como pensamento crítico, empatia e criatividade.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/150" alt="Ilustração sobre Inteligência Artificial" class="imagem">
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dilemas Digitais | Desenvolvido por Alexandra</p>
+    </footer>
+
+    <script>
+        const botoes = document.querySelectorAll("button");
+        botoes.forEach(function (botao) {
+            let curtiu = false;
+            botao.addEventListener("click", botaoClicado);
+
+            function botaoClicado() {
+                let texto = botao.querySelector("span");
+                if (texto) {
+                    if (curtiu === false) {
+                        texto.textContent++;
+                        curtiu = true;
+                    } else {
+                        texto.textContent--;
+                        curtiu = false;
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
